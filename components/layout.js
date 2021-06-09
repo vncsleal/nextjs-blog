@@ -5,7 +5,7 @@ const Layout = ({ children, categories, seo }) => (
   <>
     <div className="flex flex-col justify-between bg-white dark:bg-gray-900 min-h-screen">
       <div className="flex flex-col space-y-2 ">
-        <Nav categories={categories} />
+        <Nav />
         {children}
       </div>
       <div>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useTheme } from 'next-themes';
 import { useRef, useEffect } from 'react';
 
-const Nav = ({ categories }) => {
+const Nav = () => {
   const useIsMounted = () => {
     const isMounted = useRef(false);
     useEffect(() => {
