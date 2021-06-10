@@ -17,7 +17,7 @@ const Nav = () => {
 
   return (
     <div>
-      <nav className="flex justify-between mx-8 md:mx-20 items-center my-2">
+      <nav className="flex justify-between mx-2 md:mx-20 items-center my-2">
         <div className="font-mono text-base md:text-xl font-bold text-gray-900 dark:text-gray-100">
           <Link href="/">
             <a>cartas para um astronauta.</a>
