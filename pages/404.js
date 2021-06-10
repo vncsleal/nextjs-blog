@@ -28,7 +28,7 @@ const NotFound = () => {
           <div className="font-mono text-base md:text-xl font-bold text-gray-900 dark:text-gray-100">
             error 404 - not found.
           </div>
-          <div className="font-mono text-sm text-gray-700 dark:text-gray-300">
+          <div className="font-mono text-sm text-center text-gray-700 dark:text-gray-300">
             "ground control to Major Tom, your circuit's dead, there's something
             wrong."
           </div>

@@ -20,7 +20,7 @@ const Article = ({ article, categories }) => {
     <Layout categories={categories}>
       <Seo seo={seo} />
 
-      <div className="relative grid mx-8 md:mx-20 place-items-center bg-black">
+      <div className="relative grid md:mx-6 place-items-center bg-black">
         <Image
           image={article.image}
           style={{ opacity: 0.7, width: '100%' }}
