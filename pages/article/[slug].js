@@ -21,17 +21,15 @@ const Article = ({ article, categories }) => {
       <Seo seo={seo} />
 
       <div className="relative grid md:mx-6 place-items-center bg-black">
-        <Image
-          image={article.image}
-          style={{ opacity: 0.7, width: '100%' }}
-          layout="fill"
-          objectFit="cover"
+        <img
+          src={imageUrl}
+          className="opacity-70 w-full h-96 md:h-auto object-cover"
         />
-        <h1 className="absolute grid place-items-center place-self-center text-white text-lg md:text-5xl font-mono font-bold">
+        <h1 className="absolute grid place-items-center place-self-center text-white text-2xl md:text-5xl font-mono font-bold">
           {article.title}
         </h1>
       </div>
-      <div className="flex space-x-2 pt-2 pb-2 mx-8 md:mx-60">
+      <div className="flex space-x-2 pt-2 pb-2 mx-2 md:mx-60">
         <div className="shadow-md rounded-full">
           {article.author.picture && (
             <Image
@@ -53,7 +51,7 @@ const Article = ({ article, categories }) => {
           </p>
         </div>
       </div>
-      <div className="text-sm text-gray-900 dark:text-gray-100 font-mono mx-8 md:mx-60">
+      <div className="text-sm text-gray-900 dark:text-gray-100 font-mono mx-2 md:mx-60">
         <ReactMarkdown children={article.content} />
       </div>
     </Layout>
